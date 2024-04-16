@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+ }
+ 
+ .logo {
+     margin-right: auto;
+ }
+ 
+ .links li {
+     display: inline-block;
+     padding: 0px 20px;
+ }
+ 
+ .links li a {
+     text-decoration: none;
+     color: #2a2a2a;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+     font-weight: 520;
+     font-size: 16px;
+ }
+ 
+ .Sign {
+     display: inline-block;
+     padding: 10px 20px;
+     color: #fff;
+     font-size: 15px;
+     background: rgb(19, 175, 240);
+     border-radius: 25px;
+     font-weight: 500;
+ }
+ 
+ .Sign:hover {
+     cursor: pointer;
+ }
+ 

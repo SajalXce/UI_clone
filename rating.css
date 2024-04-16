@@ -1,0 +1,91 @@
+
+.rating {
+ 
+    margin-top: 7%;
+    display: flex;
+    margin-left: 10%;
+    padding: 30px;
+    justify-content: space-between;
+    line-height: 50px;
+    
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+}
+ li {
+    
+    list-style: none;
+}
+
+.Name {
+    color: #007bff;
+}
+
+.stars  .first {
+  padding: 15px;
+
+}
+
+.stars  .second {
+    padding: 18px;
+  
+  }
+
+  .stars  .third {
+    padding: 18px;
+  
+  }
+
+  .stars  .fourth {
+    padding: 18px;
+  
+  }
+
+.first  , .second , .third , .fourth , .fifth{
+    display: flex;
+    color: #007bff;
+  
+}
+
+.content_rating {
+ 
+  height: 300px;
+  width: 500px;
+  border: 1px solid black;
+  border-radius: 10%;
+  background-image: url('https://templatemo.com/templates/templatemo_570_chain_app_dev/assets/images/client-bg.png');
+}
+
+.right .content_rating {
+  color: white;
+}
+
+.content_rating p {
+ padding-top: 70px;
+ padding-left: 40px;
+  line-height: 1cm;
+}
+
+.face {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  /* flex-direction: row; */
+}
+
+.face img {
+  
+  height: 150px;
+  width: 150px;
+  border: 2px solid white;
+  border-radius: 100%;
+}
+
+.face h2, h4 {
+  display: inline-block;
+  flex-direction: column;
+  color:  black;
+}

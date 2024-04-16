@@ -1,0 +1,169 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amazing Services & Features</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<section class="services-section">
+  <h2>Amazing Services & Features For You</h2>
+  <p>If you need the greatest collection of HTML templates for your business, please visit <a href="#">TooCSS Blog</a>. If you need to have a contact form PHP script, go to our <a href="#">contact page</a> for more information.</p>
+
+  <div class="service-container">
+    <div class="service-card">
+      <div class="service-icon"><img src="maintenance-icon.png" alt="App Maintenance"></div>
+      <h3>App Maintenance</h3>
+      <p>You are not allowed to redistribute this template ZIP file on any other website.</p>
+      <a href="#">Read More</a>
+    </div>
+    <div class="service-card">
+      <div class="service-icon"><img src="speed-icon.png" alt="Rocket Speed of App"></div>
+      <h3>Rocket Speed of App</h3>
+      <p>You are allowed to use the Chain App Dev HTML template. Feel free to modify or edit this layout.</p>
+      <a href="#">Read More</a>
+    </div>
+    <div class="service-card">
+      <div class="service-icon"><img src="workflow-icon.png" alt="Multi Workflow Idea"></div>
+      <h3>Multi Workflow Idea</h3>
+      <p>If this template is beneficial for your work, please support us a little via PayPal. Thank you.</p>
+      <a href="#">Read More</a>
+    </div>
+    <div class="service-card">
+      <div class="service-icon"><img src="support-icon.png" alt="24/7 Help & Support"></div>
+      <h3>24/7 Help & Support</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <a href="#">Read More</a>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.services-section {
+  text-align: center;
+  padding: 20px;
+  background: #f4f7f6;
+}
+
+.service-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  background: #ffffff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin: 10px;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-icon img {
+  width: 50px;
+}
+
+h3 {
+  color: #333;
+}
+
+p {
+  color: #666;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+/* You would add media queries to make the layout responsive */
+@media (max-width: 768px) {
+  .service-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+<div class="cards">
+
+        <div class="row">
+
+        
+            <div class="service-item first-service">
+              <div class="icon">
+                <i class="fa-solid fa-gear"></i>
+              </div>
+              <h4>App Maintenance</h4>
+              <p>You are not allowed to redistribute this template ZIP file on any other website.</p>
+              <div class="text-button">
+                <a href="#">Read More <i class="fa fa-arrow-right"></i></a>
+              </div>
+            </div>
+      
+            <div class="service-item second-service">
+              <div class="icon">
+                <i class="fa-solid fa-rocket"></i>
+              </div>
+              <h4>Rocket Speed of App</h4>
+              <p>You are allowed to use the Chain App Dev HTML template. Feel free to modify or edit this layout.</p>
+              <div class="text-button">
+                <a href="#">Read More <i class="fa fa-arrow-right"></i></a>
+              </div>
+            </div>
+      
+            <div class="service-item third-service">
+              <div class="icon">
+                <i class="fa-solid fa-list-check"></i>
+              </div>
+              <h4>Multi Workflow Idea</h4>
+              <p>If this template is beneficial for your work, please support us <a rel="nofollow" href="https://paypal.me/templatemo" target="_blank">a little via PayPal</a>. Thank you.</p>
+              <div class="text-button">
+                <a href="#">Read More <i class="fa fa-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <div class="service-item fourth-service">
+              <div class="icon">
+              <i class="fa-regular fa-envelope-open"></i>
+              </div>
+              <h4>24/7 Help &amp; Support</h4>
+              <p >Lorem ipsum dolor consectetur adipiscing elit sedder williamsburg photo booth quinoa and fashion axe.</p>
+              <div class="text-button">
+                <a href="#">Read More <i class="fa fa-arrow-right"></i></a>
+              </div>
+            </div>
+
+          </div>
+
+      </div>

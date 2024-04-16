@@ -1,0 +1,88 @@
+.footer {
+
+    margin-left: 10%;
+    padding: 30px;
+    color: #333; 
+    font-family: Arial, sans-serif; 
+}
+  
+.footer-bg {
+    background-color: #edf0f3; 
+}
+  .head h1 {
+    margin: 0; 
+}
+  
+  .subscribe button {
+    display: flex;
+    align-items: center;
+    background-color: #007bff; 
+    color: #fff; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-top: 2%;
+  }
+  
+  .links {
+    display:flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 10%;
+  }
+
+  .contact {  
+    display: flex;  
+    flex-direction: column;
+    padding: 10px;
+}
+
+.contact h4 {
+    margin-bottom: 5px;
+}
+
+.contact p{  
+   
+    padding: 10px;
+}
+
+  .aboutus li {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+  }
+  
+  .UseFulLinks li  {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+  }
+
+  .company {
+    display: flex;
+    flex-direction: column;
+      
+  }
+
+
+  .company  img{
+    margin-top: 10px;
+    height: 50px; 
+    width: 60px;
+      
+  }
+
+  .company p {
+   
+    margin-top: 10px;
+    padding: 10px;
+  }
+
+
+  .copyright {
+    margin-top: 20px;
+    text-align: center;
+    margin-right: 10%;
+  }
+  

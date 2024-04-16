@@ -1,0 +1,51 @@
+
+.service-container {
+   
+   justify-content: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 7%;
+    background: #f4f7f6;
+    text-align: center;
+    height: 300px;
+  }
+
+  .service-container :hover{
+   background-color: #4b8ef1;
+   transform: translateY(-5px);
+  }
+
+  .service-card {
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    border: 0px 10px 0px 0px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .service-card p {
+    line-height: 1cm;
+  }
+  
+  .service-card .icon  {
+    margin-left: auto;
+  
+  }
+  
+  .service-card  p {
+    color: #666;
+  }
+  
+  .service-card  a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .service-icon a:hover {
+    color: #0056b3;
+  }

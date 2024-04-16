@@ -1,0 +1,55 @@
+.pricing-container {
+
+    margin-top: 10%;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .pricing-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 300px;
+  }
+
+  .pricing-card h2 {
+    color: #333; 
+    font-size: 24px;
+  }
+
+  .pricing-card p {
+    color: #666; 
+    line-height: 1.6;
+  }
+
+  .price {
+    color: #007bff; 
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  .features {
+    margin: 20px 0;
+  }
+
+  .features li {
+    margin-bottom: 10px;
+  }
+
+  .purchase-btn {
+    background: #007bff; 
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 5px;
+   
+  }
+
+  .purchase-btn:hover {
+    background: #0056b3; 
+    transition: background-color 0.3s;
+  }
